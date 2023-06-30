@@ -10,6 +10,9 @@ public class task {
         Scanner iScanner = new Scanner(System.in);
         while (true) {
             String userInput = iScanner.nextLine();
+            if (userInput.equals("exit")) {
+                break;
+            }
             if (!userInput.equals("print")) {
                 array.add(userInput);
             }
@@ -24,6 +27,9 @@ public class task {
         }
         while (true) {
             String userInput = iScanner.nextLine();
+            if (userInput.equals("exit")) {
+                break;
+            }
             if (userInput.equals("print")) {
                 System.out.println(queue);
             }
