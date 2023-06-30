@@ -8,7 +8,6 @@ public class task {
         Queue<String> queue = new LinkedList<String>();
         ArrayList<String> array = new ArrayList<>();
         Scanner iScanner = new Scanner(System.in);
-        int count = 0;
         while (true) {
             String userInput = iScanner.nextLine();
             if (!userInput.equals("print")) {
